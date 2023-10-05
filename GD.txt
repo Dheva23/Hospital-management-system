@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<TITLE>GKQUIZ</TITLE>
+<marquee><H1>WELCOME TO GK OUIZ</H1></marquee>
+<BODY BGCOLOR="40E0D0"WELCOME TO GK QUIZ"</BODY>
+<BODY BGCOLOR=#DE3163"
+TEXT="#DE3163"></BODY>
+</HEAD>
+<BODY>
+Q1.what is 2+3?<br>
+<input type="radio" name="question1" id="correct1">5<br>
+<input type="radio" name="question1">10<br>
+<input type="radio" name="question1">9<br>
+<input type="radio" name="question1">6<br>
+
+
+Q2.Golf player Vijay Singh belongs to which country?<br>
+<input type="radio" name="question2">USA<br>
+<input type="radio" name="question2" id="correct2">FIJI<br>
+<input type="radio" name="question2">INDIA<br>
+<input type="radio" name="question2">UK<br>
+
+
+Q3.Hitler party which came into power in 1933 is known as<br>
+<input type="radio" name="question3" id="correct3">NAZI PARTY<br>
+<input type="radio" name="question3">Ku-Klux-Klan<br>
+<input type="radio" name="question3">DEMOCRATIC PARTY<br>
+<input type="radio" name="question3">LABOUR PARTY<br>
+
+
+Q4.For which of the folloWing disciplines is Nobel Prize awarded?<br>
+<input type="radio" name="question4">PHYSICS AND CHEMISTRY<br>
+<input type="radio" name="question4">PHYSIOLOGY or MEDICINE<br>
+<input type="radio" name="question4">LITERATURE,PEACE AND ECONOMICS<br>
+<input type="radio" name="question4" id="correct4">ALL OF THE ABOVE<br>
+
+
+Q5.Garampani sanctuary is located at<br>
+<input type="radio" name="question5">Junagarh, Gujarat<br>
+<input type="radio" name="question5" id="correct5">Diphu, Assam<br>
+<input type="radio" name="question5">Kohima, Nagaland<br>
+<input type="radio" name="question5">Gangtok, Sikkim<br>
+
+
+Q6.Entomology is the science that studies<br>
+<input type="radio" name="question6" id="correct6">Behavior of human beings<br>	
+<input type="radio" name="question6">Insects<br>
+<input type="radio" name="question6">The origin and history of technical and scientific terms<br>
+<input type="radio" name="question6">The formation of rocks<br>
+
+
+Q7.Grand Central Terminal, Park Avenue, New York is the world's<br>
+<input type="radio" name="question7" id="correct7">largest railway station<br>
+<input type="radio" name="question7">highest railway station<br>
+<input type="radio" name="question7">longest railway station<br>
+<input type="radio" name="question7">None of the above<br>
+
+
+Q8.What are the core languages of web programming?<br>
+<input type="radio" name="question8" id="correct8">HTML,CSS,JAVASCRIPT<br>
+<input type="radio" name="question8">JAVA,C,C++<br>
+<input type="radio" name="question8">HTML,CSS,JAVA<br>
+<input type="radio" name="question8">ALL OF THE ABOVE<br>
+
+
+Q9.Representing multiple documents in a single page is called as<br>
+<input type="radio" name="question9">value<br>
+<input type="radio" name="question9" id="correct9">Frames<br>
+<input type="radio" name="question9">Marquee<br>
+<input type="radio" name="question9">List elements<br>
+
+
+Q10.A software program which is used to show webpages is called as<br>
+<input type="radio" name="question10">Technology<br>
+<input type="radio" name="question10">URL<br>
+<input type="radio" name="question10" id="correct10">Browser<br>
+<input type="radio" name="question10">WWW<br>
+
+
+<input type="submit" name="submit" value="SubmitQuiz" onclick="result()">
+<script type="text/javascript">
+    function result()
+    {
+      var score=0;
+
+      if(document.getElementById('correct1').checked) 
+      {
+        score++;
+      }
+      if(document.getElementById('correct2').checked) 
+      {
+        score++;
+      }
+      if(document.getElementById('correct3').checked) 
+      {
+        score++;
+      }
+      if(document.getElementById('correct4').checked) 
+      {
+        score++;
+      }
+      if(document.getElementById('correct5').checked) 
+      {
+        score++;
+      }
+      if(document.getElementById('correct6').checked) 
+      {
+        score++;
+      }
+      if(document.getElementById('correct7').checked) 
+      {
+        score++;
+      }
+      if(document.getElementById('correct8').checked) 
+      {
+        score++;
+      }
+      if(document.getElementById('correct9').checked) 
+      {
+        score++;
+      }
+      if(document.getElementById('correct10').checked) 
+      {
+        score++;
+      }
+      alert("Your score is:"+score);
+
+   }
+
+       </script>
+   </body>
+   </html>
